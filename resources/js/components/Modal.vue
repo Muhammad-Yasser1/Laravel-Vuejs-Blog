@@ -13,7 +13,7 @@
                         class="modal-body"
                     >your changes won't be commited to the database, it will be handled by vuejs in the front end, I wrote the requests but commented it, if you want to check the source code I'll happilly sent it to you
                         <br>
-                        <br>I did this so no body make any permanent changes or just mess around by deleting all the test articles,
+                        <br>I did this so no body make any permanent changes or just mess around by deleting all the test articles
                         <br>
                         <br>in other words: you are the one refresh admin now, piece :)
                     </div>

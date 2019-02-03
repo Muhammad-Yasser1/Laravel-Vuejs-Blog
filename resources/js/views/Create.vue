@@ -55,13 +55,16 @@ export default {
             }
         };
     },
+    created() {
+        this.$store.commit("getArticles");
+    },
     methods: {
         Create() {
             this.article.id =
                 this.$store.state.articles[
                     this.$store.state.articles.length - 1
                 ].id + 1;
-            console.log(this.article.id);
+            console.log(this.article);
 
             this.$store.commit("createArticle", this.article);
             this.$router.push({ name: "blog" });

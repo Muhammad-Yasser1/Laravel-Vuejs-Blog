@@ -38,7 +38,7 @@ const store = new Vuex.Store({
             // })
 
             let target = state.articles.findIndex(obj => obj.id == preload.id);
-            state.articles.splice(target, 1, preload)
+            state.articles.splice(target, 1, res.data.data)
         },
         deleteArticle(state, preload) {
 

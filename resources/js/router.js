@@ -44,6 +44,10 @@ const router = new Router({
             path: '/create',
             name: 'create',
             component: Create
+        },
+        {
+            path: '*',
+            redirect: '/'
         }
     ]
 })
